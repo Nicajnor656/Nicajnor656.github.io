@@ -1,0 +1,14 @@
+本仓库分支 td-nite2-tox 包含 TouchDesigner NiTE2/Astra Pro 骨骼 retarget 模板的占位 .tox、脚本与说明。
+
+重要说明：
+- 因为 .tox（TouchDesigner 组件包）通常为二进制且需要在本地由 TD 导出生成，本仓库中提供的 `td-nite2-template.tox` 是一个文本占位文件，内部包含完整的 Script SOP 与 CHOP-Execute 脚本、节点流程说明与 mapping 示例，方便你在本地快速创建或要求我后续替换成真正的 .tox 文件（若你上传 FBX 给我或允许我上传二进制文件托管）。
+- 你可以直接把脚本粘贴到 TouchDesigner 的 Script SOP 与 CHOP Execute DAT，或根据 README 中步骤在 TD 中构建网络并导出真实 .tox。
+
+文件列表：
+- td-nite2-template.tox （占位文本，内含脚本与使用说明）
+- README.md （使用说明与快速上手）
+- scripts/script_sop_joints.py （Script SOP 的 cook 脚本）
+- scripts/chop_execute_retarget.py （CHOP Execute 的 retarget 脚本）
+- mapping_example.json （示例 mapping，可直接编辑替换成你的 FBX OP 路径）
+
+如需我把真正的二进制 .tox 上传到仓库（而非占位文本），请把你允许上传二进制文件��位置和接收方式再确认一次，或把你的 FBX 提供给我（放在仓库或给一个下载链接），我会返回一个实际可打开的 .tox 文件。

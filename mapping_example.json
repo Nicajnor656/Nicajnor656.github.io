@@ -1,0 +1,14 @@
+{
+  "mapping": {
+    "neck->head": "/project1/character/bone_head",
+    "torso->neck": "/project1/character/bone_neck",
+    "left_shoulder->left_elbow": "/project1/character/bone_l_upperarm",
+    "left_elbow->left_hand": "/project1/character/bone_l_lowerarm",
+    "right_shoulder->right_elbow": "/project1/character/bone_r_upperarm",
+    "right_elbow->right_hand": "/project1/character/bone_r_lowerarm",
+    "left_hip->left_knee": "/project1/character/bone_l_thigh",
+    "left_knee->left_foot": "/project1/character/bone_l_shin",
+    "right_hip->right_knee": "/project1/character/bone_r_thigh",
+    "right_knee->right_foot": "/project1/character/bone_r_shin"
+  }
+}
